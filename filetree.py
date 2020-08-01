@@ -51,8 +51,7 @@ def print_file_tree(fp: str, indent: int, pipes: list) -> None:
 
 
 if __name__ == "__main__":
-    # cwd = os.getcwd()
-    cwd = '/Users/oldsilverboi/Desktop'
+    cwd = os.getcwd()
 
     print(f'.\n`-- {cwd}')
     print_file_tree(cwd, 4, ['|'])
